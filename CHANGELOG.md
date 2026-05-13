@@ -9,6 +9,10 @@ Unreleased section should follow [Release Toolkit](https://github.com/newrelic/r
 
 ## Unreleased
 
+### Security
+- Updated go to v1.25.10
+- Migrated from goversioninfo to go-winres for Windows resource generation
+
 ## v2.10.0 - 2026-04-22
 
 ### 🛡️ Security notices
