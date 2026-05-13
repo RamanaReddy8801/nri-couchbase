@@ -25,7 +25,6 @@ Year=$(date +"%Y")
 INTEGRATION_EXE="nri-${INTEGRATION}.exe"
 
 mkdir -p ./winres
-
 sed \
   -e "s/{MajorVersion}/$MajorVersion/g" \
   -e "s/{MinorVersion}/$MinorVersion/g" \
